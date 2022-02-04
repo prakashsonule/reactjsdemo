@@ -10,7 +10,7 @@ export class Login extends React.Component {
   render() {
     return (
       <div className="base-container" ref={this.props.containerRef}>
-        <div className="header">Login</div>
+        <div className="header">Login 1</div>
         <div className="content">
           <div className="image">
             <img src={loginImg} />
@@ -28,7 +28,7 @@ export class Login extends React.Component {
         </div>
         <div className="footer">
           <button type="button" className="btn">
-            Login
+            Login 1
           </button>
         </div>
       </div>
